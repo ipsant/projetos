@@ -9,7 +9,7 @@ Esta é a minha solução para o desafio [Social links profile do Frontend Mento
 O objetivo deste desafio foi construir um cartão de perfil com links sociais e deixá-lo o mais próximo possível do design original.
 
 ### ✨ Demonstração
-- **Link do projeto online:** [https://ipsant.github.io/projetos/social-links-profile-main/]
+- **Link do projeto online:** [Clique aqui para visualizar](https://ipsant.github.io/projetos/social-links-profile-main/)
 
 ## 🛠️ Tecnologias Utilizadas
 
@@ -29,5 +29,5 @@ Durante o desenvolvimento deste projeto, foquei em:
 ## ✒️ Autor
 
 Desenvolvido por **Ítalo Prado**.
-- GitHub - https://github.io/ipsant/
-- Frontend Mentor - @ipsant (https://frontendmentor.io)
+- GitHub - [ipsant](https://github.com/ipsant/)
+- Frontend Mentor - [@ipsant](https://www.frontendmentor.io/profile/ipsant)
