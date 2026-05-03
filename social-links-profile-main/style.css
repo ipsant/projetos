@@ -20,22 +20,22 @@
 .attribution a { color: hsl(228, 45%, 44%); }
 
 body {
+    display: flex;
     background-color: var(--cor01);
-    padding: 20vh 0;
+    min-height: 100vh;
+    justify-content: center;
+    align-items: center;
 }
 
 main {
     text-align: center;
-
     background-color: var(--cor02);
     padding: 30px;
-    width: 350px;
+    max-width: 350px;
     border-radius: 15px;
     border: 1px solid var(--cor03);
-    height: auto;
     box-shadow: 0px 0px 20px 0px rgba(0, 0, 0, 0.4);
 
-    margin: auto;
 }
 
 picture .avatar {
@@ -63,7 +63,6 @@ main address {
 
 main p {
     color: var(--cor04);
-    font-style: normal;
     font-weight: 400;
     font-size: 0.9em;
     margin-bottom: 30px;
@@ -73,7 +72,7 @@ main ul {
     list-style: none;
 }
 
-main .links li a {
+.links li a {
     background-color: var(--cor03);
     margin-bottom: 10px;
     border-radius: 5px;
@@ -84,14 +83,15 @@ main .links li a {
     text-decoration: none;
     font-size: 0.9em;
     font-weight: bold;
+    transition: .3s;
 }
 
-main .links li a:hover {
+.links li a:hover {
     color: var(--cor01);
     background-color: var(--cor05);
 }
 
-main .links li a:active {
+.links li a:active {
     transform: scale(.9);
 }
 
