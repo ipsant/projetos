@@ -1,0 +1,223 @@
+/* RESET */
+
+*{
+
+    margin:0;
+
+    padding:0;
+
+    box-sizing:border-box;
+
+}
+
+/* BODY */
+
+body{
+
+    background:#1e1e1e;
+
+    color:#d4d4d4;
+
+    font-family:Consolas, monospace;
+
+}
+
+/* CABEÇALHO */
+
+header{
+
+    background:#181818;
+
+    padding:20px 8%;
+
+    display:flex;
+
+    justify-content:space-between;
+
+    align-items:center;
+
+    border-bottom:1px solid #333;
+
+}
+
+header h1{
+
+    color:#569CD6;
+
+}
+
+nav a{
+
+    color:#d4d4d4;
+
+    text-decoration:none;
+
+    margin-left:20px;
+
+}
+
+nav a:hover{
+
+    color:#4EC9B0;
+
+}
+
+/* HERO */
+
+.hero{
+
+    text-align:center;
+
+    padding:80px 20px;
+
+}
+
+.terminal{
+
+    color:#4EC9B0;
+
+    margin-bottom:15px;
+
+}
+
+.hero h2{
+
+    font-size:40px;
+
+    color:white;
+
+    margin-bottom:20px;
+
+}
+
+.hero p{
+
+    width:700px;
+
+    max-width:90%;
+
+    margin:auto;
+
+    line-height:28px;
+
+}
+
+.hero a{
+
+    display:inline-block;
+
+    margin-top:30px;
+
+    background:#007ACC;
+
+    color:white;
+
+    padding:12px 30px;
+
+    border-radius:6px;
+
+    text-decoration:none;
+
+}
+
+.hero a:hover{
+
+    background:#2899F5;
+
+}
+
+/* CARDS */
+
+.card{
+
+    background:#252526;
+
+    width:85%;
+
+    margin:30px auto;
+
+    padding:30px;
+
+    border-radius:10px;
+
+    border:1px solid #333;
+
+}
+
+.card h2{
+
+    color:#569CD6;
+
+    margin-bottom:20px;
+
+}
+
+/* DUAS COLUNAS */
+
+.duas-colunas{
+
+    width:85%;
+
+    margin:auto;
+
+    display:flex;
+
+    gap:20px;
+
+}
+
+.duas-colunas .card{
+
+    width:100%;
+
+    margin:0;
+
+}
+
+/* LISTA */
+
+ul{
+
+    list-style:none;
+
+}
+
+li{
+
+    padding:10px 0;
+
+    border-bottom:1px solid #333;
+
+}
+
+/* PROJETOS */
+
+.projeto{
+
+    background:#1e1e1e;
+
+    padding:15px;
+
+    margin-top:15px;
+
+    border-radius:6px;
+
+    transition:.3s;
+
+}
+
+.projeto:hover{
+
+    background:#333;
+
+    cursor:pointer;
+
+}
+
+/* CONTATO */
+
+#contato p{
+
+    margin-top:12px;
+
+}
