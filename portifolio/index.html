@@ -1,70 +1,107 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="pt-br">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Portifólio</title>
+    <title>Ítalo Prado | Desenvolvedor Front-end</title>
 </head>
 <body>
+
+<!-- HEADER -->
     <header>
         <nav class="navbar">
-            <nav class="logo">
-                <h1>
+            <div class="logo">
                     <a href="#">&lt;ipsant/&gt;</a>
-                </h1>
-            </nav>
-            <nav class="menu">
-                <ul style="list-style: none;">
-                    <li><a href="">Sobre</a></li>
-                    <li><a href="">Skills</a></li>
-                    <li><a href="">Projetos</a></li>
-                    <li><a href="">Contato</a></li>
+            </div>
+            <div class="menu">
+                <ul>
+                    <li><a href="#sobre">Sobre</a></li>
+                    <li><a href="#skills">Skills</a></li>
+                    <li><a href="#projetos">Projetos</a></li>
+                    <li><a href="#contatos">Contatos</a></li>
                 </ul>
-            </nav>
+            </div>
         </nav>
     </header>
 
     <main>
+
+        <!-- HERO -->
         <section class="hero">
+            
+            <h1>Ítalo Prado</h1>
             <p>
                 Apaixonado por tecnologia e sempre em busca de conhecimento.
             </p>
-            <picture>
-                <img src="imagens/foto-perfil-quadrada.jpeg" alt="Ítalo Prado" class="avatar">
-            </picture>
-            <h1>Ítalo Prado</h1>
+
+            <img src="imagens/foto-perfil-quadrada.jpeg" alt="Ítalo Prado" class="avatar">
+
             <p>
-                Desenvolvedor front end em formação e estudante de Análise e Desenvolvimento de Sistemas.
+                Desenvolvedor front-end em formação e estudante de Análise e Desenvolvimento de Sistemas.
             </p>
-            <button class="botao">
-                <a href="#" download="#">Currículo</a>
-            </button>
+                <a href="#" download="#" class="download">Currículo</a>
         </section>
 
-        <section class="sobre">
-            <h1>> Sobre</h1>
+        <!-- SOBRE -->
+        <section class="sobre" id="sobre">
+            <h2>Sobre</h2>
             <p>
-                Olá, me chamo Ítalo Prado. Atualmente sou estudante de Análise e Desenvolvimento de Software, HTML, CSS e JavaScript. Estou construindo meu portifólio para compartilhar meus conhecimentos e minha evolução como desenvolvedor.
+                Olá, me chamo Ítalo Prado. Atualmente sou estudante de Análise e Desenvolvimento de Sistemas, HTML, CSS e JavaScript. Estou construindo meu portfólio para compartilhar meus conhecimentos e minha evolução como desenvolvedor.
             </p>
         </section>
-        <section class="skills">
-            <h1>> Skills</h1>
+
+        <!-- SKILLS -->
+        <section class="skills" id="skills">
+            <h2>Skills</h2>
             <ul>
-                HTML5
-                CSS3
-                Git
-                GitHub
-                
+                <li>HTML5</li>
+                <li>CSS3</li>
+                <li>Git</li>
+                <li>GitHub</li>
             </ul>
         </section>
-        <section class="projetos">
 
+        <!-- PROJETOS -->
+        <section class="projetos" id="projetos">
+            <h2>Projetos</h2>
+            <div class="card">
+                <h3>Projeto 1</h3>
+
+                    <img src="#" alt="prévia do projeto">
+
+                <p>"Descrição do projeto aqui."</p>
+                    <a href="#">Repositório GitHub</a>
+                    <a href="#">Site do projeto1</a>
+            </div>
+
+            <div class="card">
+                <h3>Projeto 2</h3>
+
+                <img src="#" alt="prévia do projeto">
+
+                    <p>"Descrição do projeto aqui."</p>
+                    <a href="#">Repositório GitHub</a>
+                    <a href="#">Site do projeto2</a>
+            </div>
+            
         </section>
-        <section class="contatos"></section>
+
+        <!-- CONTATOS -->
+        <section class="contatos" id="contatos">
+            <h2>Contatos</h2>
+            <ul>
+                <li><a href="https://github.com/ipsant" target="_blank" rel="noopener noreferrer">GitHub</a></li>
+                <li><a href="#">LinkedIn</a></li>
+                <li><a href="mailto:italo@outlook.com">italo@outlook.com</a></li>
+            </ul>
+        </section>
     </main>
 
+    <!-- FOOTER -->
     <footer>
-
+        <p>
+            &copy; 2026 Ítalo Prado - Desenvolvido com HTML e CSS
+        </p>
     </footer>    
 </body>
 </html>
